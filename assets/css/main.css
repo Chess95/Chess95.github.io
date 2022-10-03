@@ -1215,6 +1215,16 @@ input[type="radio"] + label:before {
   max-height:500px;
 }
 
+#swiftinabox {
+  max-width:530px;
+  max-height:500px;
+}
+
+#SFS {
+  max-width:530px;
+  max-height:500px;
+}
+
 /* Image */
 .image {
   border-radius: 0.375em;
