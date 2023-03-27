@@ -6,7 +6,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+iframe, h1, h2, h3, h4, h5, h6, p, .pp, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -91,7 +91,7 @@ body {
 
 /* Type */
 body, input, select, textarea {
-  color: #7f888f;
+  color: #595f63;
   font-family: "Open Sans", sans-serif;
   font-size: 13pt;
   font-weight: 400;
@@ -127,9 +127,11 @@ strong, b {
 em, i {
   font-style: italic; }
 
+.pp {
+  margin: 0 0 2em 0; }
+  
 p {
   margin: 0 0 2em 0; }
-
 
 h1, h12, h15, h2, h3, h4, h5, h6 {
   color: #3d4449;
@@ -150,7 +152,7 @@ h1 {
 h12 {
   font-size: 3.5em; }
 
- h15 {
+h15 {
   font-size: 2.5em; }
 
 h2 {
@@ -2167,9 +2169,11 @@ button,
     text-justify: inter-word;
     width: 50%;
     line-height: 30px; }
-  #banner .content p {
+  #banner .content .pp {
     text-indent: 2em;
-
+      }  
+  #banner .content p {
+    text-indent: 0em;
     }
   #banner .image {
     -moz-flex-grow: 0;
